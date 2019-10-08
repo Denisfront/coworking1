@@ -1,0 +1,71 @@
+
+@font-face {
+	font-family: 'GothaPro';
+	src: url('fonts/GothaProBol.eot');
+    src: local('☺'), 
+    url('./fonts/GothaProBol.woff2') format('woff2'), 
+    url('./fonts/GothaProBol.ttf') format('truetype'), 
+    url('./fonts/GothaProBol.svg') format('svg');
+	font-weight: 700;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'GothaPro';
+	src: url('fonts/GothaProLigIta.eot');
+    src: local('☺'), 
+    url('./fonts/GothaProLigIta.woff2') format('woff2'), 
+    url('./fonts/GothaProLigIta.ttf') format('truetype'),
+    url('./fonts/GothaProLigIta.svg') format('svg');
+	font-weight: 300;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'GothaPro';
+	src: url('fonts/GothaProLig.eot');
+    src: local('☺'), 
+    url('./fonts/GothaProLig.woff2') format('woff2'), 
+    url('./fonts/GothaProLig.ttf') format('truetype'), 
+    url('./fonts/GothaProLig.svg') format('svg');
+	font-weight: 300;
+	font-style: normal;
+}
+body {
+    font-family: 'GothaPro';
+}
+
+.header {
+    background-image: url(header-img/backimg.png);
+    height: 76px;
+    position: relative;
+}
+.container {
+    width: 1100px;
+    margin: 0 auto;
+}
+.contacts__phone {
+    font-size: 21px;
+    font-weight: 700;
+    color: #fff;
+    position: absolute;
+    right: 21px;
+    top: 21px;
+}
+.contacts__hours {
+    font-size: 14px;
+    font-weight: 700;
+    color: #ec1e79;
+    position: absolute;
+    right: 21px;
+    top: 45px;
+}
+.logo {
+    position: absolute;
+    left: 19px;
+    top: 12px;
+}
+.page-content {
+    margin-top: 68px;
+}
+
