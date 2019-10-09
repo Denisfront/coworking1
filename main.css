@@ -32,7 +32,9 @@
 	font-style: normal;
 }
 body {
-    font-family: 'GothaPro';
+    font: 16/1.42 'GothaPro', Arial, Helvetica, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 .header {
@@ -68,4 +70,13 @@ body {
 .page-content {
     margin-top: 68px;
 }
+.main-content {
 
+}
+​
+.sidebar {
+  display: inline;
+}
+.footer {
+
+}
