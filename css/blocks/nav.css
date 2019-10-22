@@ -1,0 +1,57 @@
+.nav__item {
+    margin-bottom: 28px;
+}
+.nav__item:last-child {
+    margin: 0;
+}
+.nav__link {
+    font-size: 12px;
+    font-weight: 700;
+    color: #ec1e79;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.nav__link:before {
+    content: '';
+    display: inline-block;
+    vertical-align: middle;
+    width: 21px;
+    height: 18px;
+    margin-right: 17px;
+    background: center center /contain no-repeat;
+    transform: translateY(-20%);
+}
+
+.nav__link:hover {
+    color: black;
+}
+.nav__item--active .nav__link {
+    color: black;
+}
+
+.nav__link--icon--main:before {
+    background-image: url(../../sidebar-img/main_icon_reviws.png);
+}
+.nav__link--icon--feed:before {
+    background-image: url(../../sidebar/feed_icon.png);
+}
+.nav__link--icon--wallet:before{
+    background-image: url(../../sidebar/wallet_icon.png);
+}
+
+.nav__link--icon--feed:hover:before {
+    background-image: url(../../sidebar/feed_icon_hover.png);
+}
+.nav__link--icon--wallet:hover:before{
+    background-image: url(../../sidebar/wallet_icon_hover.png);
+}
+
+.nav__item--active .nav__link--icon--main:before {
+    background-image: url(../../sidebar/sidebar_icon_main.png);
+}
+.nav__item--active .nav__link--icon--feed:before {
+    background-image: url(../../sidebar/feed_icon.png);
+}
+.nav__item--active .nav__link--icon--wallet:before{
+    background-image: url(../../sidebar/wallet_icon.png);
+}

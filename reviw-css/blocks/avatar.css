@@ -1,0 +1,27 @@
+.avatar {
+    max-width: 160px;
+    max-height: 160px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.avatar--noimg {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    background-color: #f5f5f5;
+    position: relative;
+}
+
+.avatar__pic--noimg {
+    position: absolute;
+    background-image: url(../../reviws-img/logo-fig.png);
+    background-repeat: no-repeat;
+    left: 27px;
+    top: 45px;
+}
+
+.avatar__pic {
+    min-width: 100%;
+    min-height: 100%;
+}

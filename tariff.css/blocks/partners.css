@@ -1,0 +1,29 @@
+.partners__title {
+    font-size: 49px;
+    font-weight: 700;
+    color: #221f1f;
+    margin-bottom: 41px;
+}
+
+.partners__list {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -105px;
+    margin-bottom: 90px;
+}
+
+.partners__item:nth-child(1) {
+    margin-top: 8px;
+}
+
+.partners__item:nth-child(2) {
+    margin-bottom: 45px;
+}
+
+.partners__item {
+    width: calc(100% / 3 - 152px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 96px;
+}

@@ -1,0 +1,14 @@
+.contacts {
+    text-align: right;
+    font-weight: 700;
+    font-style: normal;
+}
+.contacts__phone {
+    color: #fff;
+    font-size: 21px;
+    text-decoration: none;
+}
+.contacts__hours {
+    font-size: 14px;
+    color: rgba(236, 30, 121, 0.7); 
+}

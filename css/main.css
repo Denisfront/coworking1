@@ -1,0 +1,28 @@
+/* Основные стили */
+@import url('./layout/fonts.css');
+@import url('./layout/normalize.css');
+@import url('./layout/base.css');
+
+/* Шапка сайта */
+@import url('./blocks/header.css');
+@import url('./blocks/contacts.css');
+
+/* Баннер */
+@import url('./blocks/banner.css');
+
+/* Навигация */
+@import url('./blocks/sidebar.css');
+@import url('./blocks/nav.css');
+
+/* Основная састь */
+@import url('./blocks/page-content.css');
+@import url('./blocks/main-content.css');
+@import url('./blocks/feature.css');
+@import url('./blocks/span.css');
+@import url('./blocks/title.css');
+@import url('./blocks/news.css');
+@import url('./blocks/pagination.css');
+
+/* Футер */
+@import url('./blocks/footer.css');
+@import url('./blocks/social-net.css');

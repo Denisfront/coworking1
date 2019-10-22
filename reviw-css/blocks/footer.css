@@ -1,0 +1,31 @@
+
+.footer {
+    background: #27273e;
+    color: #fff;
+    font-size: 14px;
+    padding: 10px 0 13px;
+}
+
+.footer__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer__text {
+    width: 266px;
+    line-height: 18px;
+}
+
+.footer__text-a {
+    color: #fff;
+    font-weight: 700;
+    line-height: 1.29;
+}
+
+.footer__text-name {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    margin: 0;
+}

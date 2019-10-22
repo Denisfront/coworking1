@@ -1,0 +1,10 @@
+.offer {
+    background-image: url(../../offer/pattern.png);
+    margin-bottom: 56px;
+}
+.offer__text {
+    font-size: 18px;
+    line-height: 1.67;
+    color: #fff;
+    padding: 23px 278px 56px 357px;
+}
