@@ -12,6 +12,8 @@
 <body>
     <div class="wrapper">
         <div class="wrapper__content">
+
+            <!-- Шапка сайта -->
             <header class="header">
                 <div class="container header__container">
                     <a href="#" class="logo">
@@ -19,44 +21,106 @@
                     </a>
                     <address class="contacts">
                         <a href="tel:+78000039210" class="contacts__phone">8 (800) 00-392-10</a>
-                        <div class="contacts__hours">График работы</div>
+                        <div class="contacts-dropduwn">
+                            <a href="" class="contacts-dropduwn__hours">График работы</a>
+                            <div class="triangle"></div>
+                            <div class="contacts-dropduwn__time">
+                                <div class="contacts-dropduwn__time-working-hours">пн-вс: 09:00-20:00</div>
+                                <div class="contacts-dropduwn__time-dinner">обед: 14:00-13:00</div>
+                            </div>
+                        </div>
                     </address>
                 </div>
             </header>
+
+            <!-- Освновная часть -->
             <div class="page-content">
                 <div class="container page-content__container">
-                    <aside class="sidebar">
-                        <nav class="nav">
-                            <ul class="nav__list">
-                                <li class="nav__item">
-                                    <a href="./news.html" class="nav__link nav__link--icon--main">
-                                        Главная
-                                    </a>
-                                </li>
-                                <li class="nav__item nav__item--active">
-                                    <a href="./reviews.html" class="nav__link nav__link--icon--feed">
-                                        Отзывы
-                                    </a>
-                                </li>
-                                <li class="nav__item">
-                                    <a href="./tariff.html" class="nav__link nav__link--icon--wallet">
-                                        Тарифы
-                                    </a>
-                                </li>
-                            </ul>
-                        </nav>
-                    </aside>
+
+                    <!-- Скидка -->
+                    <section class="offer">
+                        <div class="offer__wrapper">
+                            <div class="offer__text">
+                                <p>
+                                    Для наших новых клиентов мы предлагаем <span class="discount">скидку 50%</span> на
+                                    первый день! <br>Приходите, чтобы
+                                    лично
+                                    оценить
+                                    преимущества<br> коворкинга «Воркадиум»!
+                                </p>
+                            </div>
+                        </div>
+                        <div class="social-net">
+                            <h4 class="social-net__text">Наши социальные сети</h4>
+                            <div class="social-net">
+                                <ul class="social-net__list">
+                                    <li class="social-net__item">
+                                        <a href="https://vk.com/id247694606" class="social-net__link" target="_blank">
+                                            <div class="social-net__pic">
+                                                <div class=social-net__img-vk></div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="social-net__item">
+                                        <a href="" class="social-net__link">
+                                            <div class="social-net__pic">
+                                                <div class=social-net__img-fb></div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="social-net__item">
+                                        <a href="" class="social-net__link">
+                                            <div class="social-net__pic">
+                                                <div class=social-net__img-gog></div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="social-net__item">
+                                        <a href="" class="social-net__link">
+                                            <div class="social-net__pic">
+                                                <div class=social-net__img-tw></div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="social-net__item">
+                                        <a href="" class="social-net__link">
+                                            <div class="social-net__pic">
+                                                <div class=social-net__img-mail></div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- Основной контент -->
                     <div class="main-content">
-                        <nav class="breadcrumbs">
-                            <ul class="breadcrumbs__list">
-                                <li class="breadcrumbs__item">
-                                    <a href="./news.html" class="breadcrumbs__link">Главная</a>
-                                </li>
-                                <li class="breadcrumbs__item breadcrumbs__item--active">
-                                    <a href="#" class="breadcrumbs__link">Отзывы</a>
-                                </li>
-                            </ul>
-                        </nav>
+
+                        <!-- Навигация -->
+                        <aside class="sidebar">
+                            <nav class="nav">
+                                <ul class="nav__list">
+                                    <li class="nav__item">
+                                        <a href="./news.html" class="nav__link nav__link--icon--main">
+                                            Главная
+                                        </a>
+                                    </li>
+                                    <li class="nav__item nav__item--active">
+                                        <a href="./reviews.html" class="nav__link nav__link--icon--feed">
+                                            Отзывы
+                                        </a>
+                                    </li>
+                                    <li class="nav__item">
+                                        <a href="./tariff.html" class="nav__link nav__link--icon--wallet">
+                                            Тарифы
+                                        </a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </aside>
+
+                        <!-- Отзывы -->
                         <section class="reviews">
                             <h2 class="title reviews__title">Отзывы</h2>
                             <ul class="reviews__list">
@@ -196,66 +260,56 @@
                                 </div>
                             </div>
                         </section>
+                        <section class="form-section">
+                            <div class="form">
+                                <h2 class="form__title">Оставить отзыв</h2>
+                                <form action="" class="form__elem">
+                                    <div class="form__row">
+                                        <label class="form__block">
+                                            <div class="form__block-title">Ваше имя</div>
+                                            <input placeholder="Андрей" type="text" name="" class="form__input">
+                                        </label>
+                                        <label class="form__block">
+                                            <div class="form__block-title">Ссылка на профиль VK</div>
+                                            <input placeholder="vk.com/example" type="text" name="" class="form__input">
+                                        </label>
+                                    </div>
+                                    <div class="form__row">
+                                        <label class="form__block">
+                                            <div class="form__block-title">Текст отзыва</div>
+                                            <textarea class="form__input form__input--textarea"
+                                                placeholder="Мне понравилось"></textarea>
+                                        </label>
+                                    </div>
+                                    <div class="form__row form-bottomline">
+                                        <div class="form__question">
+                                            <div class="form__question-title">Отображать фото в отзыве?</div>
+                                            <div class="form__question-options">
+                                                <label class="option">
+                                                    <div class="option__radio">
+                                                        <input type="radio" name="question" id="">
+                                                    </div>
+                                                    <div class="option__title">Да</div>
+                                                </label>
+                                                <label class="option">
+                                                    <div class="option__radio">
+                                                        <input type="radio" name="question" id="">
+                                                    </div>
+                                                    <div class="option__title">Нет</div>
+                                                </label>
+                                            </div>
+                                        </div>
+                                        <!-- <div class="form__button"> -->
+                                        <input type="submit" class="form__button" value="Отправить">
+                                        <!-- </div> -->
+                                    </div>
+                                </form>
+                            </div>
+                        </section>
                     </div>
                 </div>
-                <section class="offer">
-                    <div class="offer__text">
-                        <p>
-                            Для наших новых клиентов мы предлагаем <span class="discount">скидку 50%</span> на
-                            первый день! Приходите, чтобы
-                            лично
-                            оценить
-                            преимущества коворкинга «Воркадиум»!
-                        </p>
-                    </div>
-                </section>
                 <div class="container page-content__container">
-                    <section class="form-section">
-                        <div class="form">
-                            <h2 class="form__title">Оставить отзыв</h2>
-                            <form action="" class="form__elem">
-                                <div class="form__row">
-                                    <label class="form__block">
-                                        <div class="form__block-title">Ваше имя</div>
-                                        <input placeholder="Андрей" type="text" name="" class="form__input">
-                                    </label>
-                                    <label class="form__block">
-                                        <div class="form__block-title">Ссылка на профиль VK</div>
-                                        <input placeholder="vk.com/example" type="text" name="" class="form__input">
-                                    </label>
-                                </div>
-                                <div class="form__row">
-                                    <label class="form__block">
-                                        <div class="form__block-title">Текст отзыва</div>
-                                        <textarea class="form__input form__input--textarea"
-                                            placeholder="Мне понравилось"></textarea>
-                                    </label>
-                                </div>
-                                <div class="form__row form-bottomline">
-                                    <div class="form__question">
-                                        <div class="form__question-title">Отображать фото в отзыве?</div>
-                                        <div class="form__question-options">
-                                            <label class="option">
-                                                <div class="option__radio">
-                                                    <input type="radio" name="question" id="">
-                                                </div>
-                                                <div class="option__title">Да</div>
-                                            </label>
-                                            <label class="option">
-                                                <div class="option__radio">
-                                                    <input type="radio" name="question" id="">
-                                                </div>
-                                                <div class="option__title">Нет</div>
-                                            </label>
-                                        </div>
-                                    </div>
-                                    <!-- <div class="form__button"> -->
-                                    <input type="submit" class="form__button" value="Отправить">
-                                    <!-- </div> -->
-                                </div>
-                            </form>
-                        </div>
-                    </section>
+                    <!--Форма-->
                 </div>
             </div>
             <footer class="footer">
@@ -269,48 +323,6 @@
                     <a href="/" class="logo logo__footer">
                         <img src="./header-img/logo.png" class="logo__pic" alt="">
                     </a>
-                    <div class="social-net">
-                        <h4 class="social-net__text">Наши социальные сети</h4>
-                        <div class="social-net__contacts">
-                            <ul class="social-net__list">
-                                <li class="social-net__item">
-                                    <a href="https://vk.com/id247694606" class="social-net__link" target="_blank">
-                                        <div class="social-net__pic">
-                                            <div class=social-net__img-vk></div>
-                                        </div>
-                                    </a>
-                                </li>
-                                <li class="social-net__item">
-                                    <a href="" class="social-net__link">
-                                        <div class="social-net__pic">
-                                            <div class=social-net__img-fb></div>
-                                        </div>
-                                    </a>
-                                </li>
-                                <li class="social-net__item">
-                                    <a href="" class="social-net__link">
-                                        <div class="social-net__pic">
-                                            <div class=social-net__img-gog></div>
-                                        </div>
-                                    </a>
-                                </li>
-                                <li class="social-net__item">
-                                    <a href="" class="social-net__link">
-                                        <div class="social-net__pic">
-                                            <div class=social-net__img-tw></div>
-                                        </div>
-                                    </a>
-                                </li>
-                                <li class="social-net__item">
-                                    <a href="" class="social-net__link">
-                                        <div class="social-net__pic">
-                                            <div class=social-net__img-mail></div>
-                                        </div>
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
                 </div>
             </footer>
         </div>

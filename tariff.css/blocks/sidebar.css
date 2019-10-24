@@ -1,4 +1,9 @@
-.sidebar {
+/* .sidebar {
     width: 13%;
     margin-right: 46px;
+} */
+.sidebar {
+    /* margin-left: 25px; */
+    width: 495px;
+    margin-bottom: 16px;
 }

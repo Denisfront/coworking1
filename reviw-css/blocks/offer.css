@@ -1,10 +1,19 @@
 .offer {
+    width: 24%;
+    margin-bottom: 20px;
+    margin-right: 19px;
+    margin-top: 6px;
+}
+.offer__wrapper {
     background-image: url(../../offer/pattern.png);
-    margin-bottom: 56px;
+    width: 276px;
+    height: 229px;
+    margin-bottom: 26px;
 }
 .offer__text {
     font-size: 18px;
     line-height: 1.67;
     color: #fff;
-    padding: 23px 278px 56px 357px;
+    text-align: center;
+    padding: 4px 1px 1px 3px;
 }

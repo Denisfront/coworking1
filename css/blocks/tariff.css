@@ -1,0 +1,124 @@
+.top-tarrif {
+    margin-top: 10px;
+    width: 26%;
+    margin-right: 19px;
+}
+.tariff {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border: 1px solid #e8e9ed;
+    margin-bottom: 27px;
+}
+.tariff--padding {
+    padding: 27px 1px 16px 1px;
+}
+.top-tariff__title {
+    font-size: 18px;
+    font-weight: 700;
+    color: #221f1f;
+    text-transform: uppercase;
+    margin-bottom: 29px;
+}
+.tariff-desc__situation {
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 2.64px;
+    color: #212121;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.tariff-descn-text,
+.tariff-desc__buns-list {
+    font-size: 18px;
+    color: #221f1f;
+    line-height: 1.67;
+}
+.tariff-desc__buns-item {
+    text-align: left;
+    padding-left: 50px;
+    position: relative;
+    padding-bottom: 6px;
+}
+.tariff-desc__buns-item:before {
+    content: '';
+}
+.tariff-desc__buns-item--active:before {
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background: #cc3366;
+    left: 13px;
+    top: 12px;
+} 
+
+
+
+/* 
+.feature {
+    margin-bottom: 67px;
+    width: 88%;
+}
+.feature-desc__list {
+    display: flex;
+    justify-content: space-between;
+}
+.feature__title {
+    margin-bottom: 64px;
+    line-height: 0.78;
+}
+.feature-desc__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 0px 32px 0px 12px;
+}
+.feature-desc__item:last-child {
+    padding-right: 14px;
+}
+.feature-desc__pic {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 68px;
+    height: 68px;
+    background-color: #27273e;
+    border-radius: 50%;
+    margin-bottom: 32px;
+}
+.feature-desc__situation {
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 2.64px;
+    color: #212121;
+    text-transform: uppercase;
+    margin-bottom: 19px;
+}
+.feature-descn-text,
+.feature-desc__buns-item {
+    font-size: 18px;
+    color: #221f1f;
+    line-height: 1.67;
+}
+.tariff-desc__buns-item {
+    text-align: left;
+    padding-left: 50px;
+    position: relative;
+    padding-bottom: 6px;
+}
+
+.tariff-desc__buns-item:before {
+    content: '';
+}
+.tariff-desc__buns-item--active:before {
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background: #cc3366;
+    left: 13px;
+    top: 12px;
+} */

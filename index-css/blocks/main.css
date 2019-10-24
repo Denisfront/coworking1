@@ -4,4 +4,30 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    animation: myanimation 1s 1s forwards;
+    transform-origin: center center;
+    opacity: 0;
+}
+
+@keyframes myanimation {
+    from {
+        transform: rotate(0deg);
+        opacity: 0;
+        transform: scale3d(0.3, 0.3, 0.3);
+        
+    }
+    20% {
+        opacity: 1;
+        transform: rotate(-10deg);
+    
+    }
+    40% {
+        opacity: 1;
+        transform: rotate(5deg);
+    }
+    to {
+        opacity: 1;
+       transform: rotate(0deg);
+    
+    }
 }
