@@ -1,8 +1,8 @@
 
 .form-section {
-    padding: 0 17%;
+    padding: 0 11% 0px 0px;
     width: 100%;
-    margin-bottom: 60px;
+    margin-bottom: 101px;
 }
 
 .form {
@@ -10,7 +10,7 @@
     font-size: 14px;
     font-weight: 300;
     color: #221f1f;
-    padding: 6% 10%;
+    padding: 6% 13% 0% 13%;
 }
 
 .form__title {

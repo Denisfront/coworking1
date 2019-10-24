@@ -1,15 +1,14 @@
-.nav__item {
-    margin-bottom: 28px;
-}
-.nav__item:last-child {
-    margin: 0;
-}
+
 .nav__link {
     font-size: 12px;
     font-weight: 700;
-    color: #ec1e79;
+    color: #fff;
     text-decoration: none;
     text-transform: uppercase;
+    letter-spacing: 1.2px;
+}
+.nav__link:first-child {
+    margin-left: 10px;
 }
 .nav__link:before {
     content: '';
@@ -17,41 +16,35 @@
     vertical-align: middle;
     width: 21px;
     height: 18px;
-    margin-right: 17px;
     background: center center /contain no-repeat;
-    transform: translateY(-20%);
+    top: 50%;
+    left: 50%;
+    transform: translate(-45%, -11%);
 }
-
+.nav__list {
+    display: flex;
+    justify-content: space-between;
+}
 .nav__link:hover {
-    color: black;
+    color: #ec1e79;
 }
 .nav__item--active .nav__link {
-    color: black;
+    color: #ec1e79;
 }
 
 .nav__link--icon--main:before {
-    background-image: url(../../sidebar-img/main_icon_reviws.png);
+    background-image: url(../../sidebar/main_icon_reviws.png);
 }
 .nav__link--icon--feed:before {
-    background-image: url(../../sidebar/feed_icon.png);
+    background-image: url(../../sidebar/feed_icon_news.png);
 }
 .nav__link--icon--wallet:before{
-    background-image: url(../../sidebar/wallet_icon.png);
+    background-image: url(../../sidebar/wallet_icon_news.png);
 }
 
 .nav__link--icon--feed:hover:before {
-    background-image: url(../../sidebar/feed_icon_hover.png);
-}
-.nav__link--icon--wallet:hover:before{
-    background-image: url(../../sidebar/wallet_icon_hover.png);
-}
-
-.nav__item--active .nav__link--icon--main:before {
-    background-image: url(../../sidebar/sidebar_icon_main.png);
-}
-.nav__item--active .nav__link--icon--feed:before {
     background-image: url(../../sidebar/feed_icon.png);
 }
-.nav__item--active .nav__link--icon--wallet:before{
+.nav__link--icon--wallet:hover:before{
     background-image: url(../../sidebar/wallet_icon.png);
 }

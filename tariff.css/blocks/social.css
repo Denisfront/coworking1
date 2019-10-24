@@ -1,5 +1,5 @@
 
-.social-net__list {
+/* .social-net__list {
     display: flex;
 }
 .social-net__link {
@@ -68,5 +68,83 @@
     width: 12px;
     height: 9px;
     left: 4px;
+    top: 6px;
+} */
+
+
+.social-net {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.social-net__list {
+    display: flex;
+}
+.social-net__link {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #d4d4d8;
+}
+.social-net__text {
+    font-size: 14px;
+    color: #221f1f;
+    font-weight: 700;
+    padding-bottom: 7px;
+}
+.social-net__item {
+    margin-right: 10px;
+}
+.social-net__pic {
+    width: 20px;
+    position: relative;
+}
+.social-net__pic:hover {
+    background: #ec1e79;
+}
+.social-net__img-vk{
+    position: absolute;
+    background-image: url(../../social/vk.png);
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 20px;
+    left: 10px;
+    top: 7px;
+}
+
+.social-net__img-fb {
+    position: absolute;
+    background-image: url(../../social/fb.png);
+    background-repeat: no-repeat;
+    width: 7px;
+    height: 13px;
+    left: 13px;
+    top: 5px;
+}
+.social-net__img-gog {
+    position: absolute;
+    background-image: url(../../social/google.png);
+    background-repeat: no-repeat;
+    width: 15px;
+    height: 9px;
+    left: 9px;
+    top: 7px;
+}
+.social-net__img-tw {
+    position: absolute;
+    background-image: url(../../social/twitter.png);
+    background-repeat: no-repeat;
+    width: 11px;
+    height: 9px;
+    left: 11px;
+    top: 7px;
+}
+.social-net__img-mail {
+    position: absolute;
+    background-image: url(../../social/mail.png);
+    background-repeat: no-repeat;
+    width: 12px;
+    height: 9px;
+    left: 10px;
     top: 6px;
 }
