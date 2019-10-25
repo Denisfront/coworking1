@@ -1,30 +1,29 @@
 .welcom {
     display: flex;
     flex-direction: column;
-    animation: myanimation 1s 1s forwards;
-    transform-origin: center center;
+    animation: myanimation .5s 1s forwards;
     opacity: 0;
 }
 
+
 @keyframes myanimation {
     from {
-        transform: rotate(0deg);
+        transform: scale(.2) rotate(30deg);
         opacity: 0;
-        transform: scale3d(0.3, 0.3, 0.3);
         
     }
-    20% {
+    40% {
         opacity: 1;
-        transform: rotate(-10deg);
+        transform: rotate(-15deg);
     
     }
-    40% {
+    80% {
         opacity: 1;
         transform: rotate(5deg);
     }
     to {
         opacity: 1;
-       transform: rotate(0deg);
+       transform: cubic-bezier(0,1.1,0,.99);
     
     }
 } 
