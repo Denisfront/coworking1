@@ -3,10 +3,10 @@
 @import url('./layout/normalize.css');
 @import url('./layout/base.css');
 /* Картинка главного экрана */
-@import url('./blocks/image.css');
-@import url('./blocks/logo.css');
+@import url('./blocks/auth.css');
+@import url('./blocks/welcom.css');
 @import url('./blocks/main.css');
-@import url('./blocks/button.css');
+
 
 
 
