@@ -1,43 +1,18 @@
-.tariffs {
-    margin-bottom: 33px;
-}
-.tariffs__title {
-    font-size: 49px;
-    font-weight: 700;
-    color: #221f1f;
-    margin-bottom: 42px;
-}
-
-.tariffs__list {
-    display: flex;
-    flex-wrap: wrap;
-    margin-left: -55px;
-}
-
-.tariffs__item {
-    width: calc(100% / 3 - 63px);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-left: 55px;
-    text-align: center;
-}
-.tariffs__item:nth-child(2) {
-    margin-bottom: 69px;
-}
-.tariffs__img {
-    margin-bottom: 23px;
-}
-.tariffs__img--margin {
-    margin-bottom: 41px;
-}
-.image {
-    width: 250px;
-    height: 153px;
+.image-pic {
+    width: 273px;
+    height: 165px;
+    border-radius: 3px;
     position: relative;
 }
 
+.image {
+    position: relative;
+    margin-bottom: 22px;
+}
+
 .image:after {
+    width: 275px;
+    height: 165px;
     position: absolute;
     content: '';
     top: 0;
@@ -47,14 +22,42 @@
     background-color: rgba(39, 39, 62, 0.8);
     border-radius: 3px;
 }
+
 .image:hover:after {
     display: none;
 }
 
-.image-pic {
-    width: 100%;
-    height: 100%;
-    border-radius: 3px;
+.tariffs {
+    margin-bottom: 66px;
+}
+
+.tariffs__list {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -20px;
+}
+
+.tariffs__item--bottom {
+    margin-bottom: 74px;
+}
+
+.tariffs__item {
+    width: calc(100% / 3 - 20px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.tariffs__title {
+    font-size: 49px;
+    font-weight: 700;
+    color: #221f1f;
+    margin-bottom: 42px;
+}
+
+.tariffs__tariff {
+    text-align: center;
 }
 
 .tariffs__tariff-sum {
@@ -74,7 +77,9 @@
     margin-right: -50%;
     transform: translate(-50%, -50%);
     z-index: 1;
+    line-height: 34px;
 }
+
 .tariffs__tariff-title:nth-child(3) {
     position: absolute;
     top: 58%;
@@ -83,9 +88,10 @@
     transform: translate(-50%, -50%);
     line-height: 1.4;
 }
+
 .vip {
     position: absolute;
-    top: 23%;
+    top: 31%;
     left: 50%;
     margin-right: -50%;
     transform: translate(-50%, -50%);
@@ -94,6 +100,7 @@
     color: #ec1e79;
     z-index: 1;
 }
+
 .tariffs__tariff-text {
     font-size: 14px;
     font-weight: 300;
