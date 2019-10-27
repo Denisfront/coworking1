@@ -10,7 +10,7 @@
 .nav__link:first-child {
     margin-left: 10px;
 }
-.nav__link:before {
+.nav__link:before { 
     content: '';
     display: inline-block;
     vertical-align: middle;
